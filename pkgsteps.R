@@ -1,7 +1,7 @@
-#STEP FOR CREATING AN R PACKAGE ON THE FLY
+#STEP FOR CREATING A R PACKAGE ON THE FLY
 #SOURCE: https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
 
-#1. INSTALL DEVTOOLS AND LOAD IT IN ORDER TO DOWNLOAD PACKAGES FROM GITHUB
+#1. INSTALL DEVTOOLS AND LOAD IT IN ORDER TO BE ABLE TO DOWNLOAD PACKAGES FROM GITHUB
 #install.packages("devltools")
 library(devtools)
 
@@ -15,9 +15,9 @@ create("packagename")
 
 #4. CREATE AN .R SCRIPT WITH THE FUNCTION THAT YOU DESIRE TO MAKE INTO A PACKAGE
 #5. ADD DOCUMENTATION AT THE TOP OF THE .R SCRIPT AS FOLLOWS:
-    #'A FUNCTION
+    #'A title for the package
     #'
-    #'SOME COMMENTS HERE ABOUT THE FUNCTION
+    #'Some comment about the package and what it does
     #'
     #'@param ParamA Comment about ParamA
     #'@param ParamB Comment about ParamB 
