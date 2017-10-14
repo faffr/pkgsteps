@@ -11,7 +11,7 @@ library(roxygen2)
 
 #3. CREATE A DIRECTORY FOR THE PACKAGE 
 setwd("somelocation/Desktop")
-create("reshapeCP") 
+create("packagename") 
 
 #4. CREATE AN .R SCRIPT WITH THE FUNCTION THAT YOU DESIRE TO MAKE INTO A PACKAGE
 #5. ADD DOCUMENTATION AT THE TOP OF THE .R SCRIPT AS FOLLOWS:
@@ -27,7 +27,7 @@ create("reshapeCP")
     #'examples to make it clear to the user on how to use the parameters vis-a-vis the function with a toy example
 
 #.6 CREATE ANOTHER DOCUMENT NECESSARY FOR THE PACKAGE BY USING THE FOLLOWING LINES      
-setwd("somelocation/Desktop/GitHub/reshapeCP") #points to the parent location where the function is located. If this is a change in an existing function, this should point to the GIT clone folder
+setwd("somelocation/Desktop/GitHub/packagename") #points to the parent location where the function is located. If this is a change in an existing function, this should point to the GIT clone folder
 document() #creates/edits the .Rd function inside the "man" folder. Do this every time there is a change in the function or the package will not update when it is uploaded to GIT.
 
 #.7 UPLOAD TO GIT USING THE GIT APPLICATION TOOL
