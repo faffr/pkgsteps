@@ -2,7 +2,7 @@
 #SOURCE: https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
 
 #1. INSTALL DEVTOOLS AND LOAD IT IN ORDER TO BE ABLE TO DOWNLOAD PACKAGES FROM GITHUB
-#install.packages("devltools")
+#install.packages("devtools")
 library(devtools)
 
 #2. INSTALL ROXYGEN FROM GITHUB AND LOAD IT
