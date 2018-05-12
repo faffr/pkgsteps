@@ -33,4 +33,8 @@ create("packagename")
 setwd("somelocation/Desktop/GitHub/packagename") #points to the parent location where the function is located. If this is a change in an existing function, this should point to the GIT clone folder
 document() #creates/edits the .Rd function inside the "man" folder. Do this every time there is a change in the function or the package will not update when it is uploaded to GIT.
 
+# 8. TEST THE PACKAGE LOCALLY - LOCATE THE DIRECTORY WHERE THE PACKAGE FOLDER LIVES - INSTALL
+setwd("..")
+install("raschamle")
+
 # 8. UPLOAD TO GIT USING THE GIT APPLICATION TOOL
