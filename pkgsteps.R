@@ -6,7 +6,7 @@
 library(devtools)
 
 #2. INSTALL ROXYGEN FROM GITHUB AND LOAD IT
-devtools::install_github("klutometis/roxygen")
+#install.packages("roxygen2")
 library(roxygen2)
 
 #3. CREATE A DIRECTORY FOR THE PACKAGE 
