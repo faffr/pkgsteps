@@ -35,6 +35,9 @@ document() #creates/edits the .Rd function inside the "man" folder. Do this ever
 
 # 8. TEST THE PACKAGE LOCALLY - LOCATE THE DIRECTORY WHERE THE PACKAGE FOLDER LIVES - INSTALL
 setwd("..")
-install("raschamle")
+install("packagename")
 
-# 8. UPLOAD TO GIT USING THE GIT APPLICATION TOOL
+# 9. UPLOAD TO GIT USING THE RSTUDIO (This is only if it is a new package you built locally)
+#    Depending on the situation, refer to chapter 16, 17 or 18 here: http://happygitwithr.com  
+
+
