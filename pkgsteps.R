@@ -5,7 +5,7 @@
 #install.packages("devtools")
 library(devtools)
 
-# 2. INSTALL ROXYGEN FROM GITHUB AND LOAD IT
+# 2. INSTALL ROXYGEN FROM REPO AND LOAD IT
 #install.packages("roxygen2")
 library(roxygen2)
 
